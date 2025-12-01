@@ -1,0 +1,229 @@
+.hero {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url("imagens/baratie.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;       
+    justify-content: center;   
+    text-align: center;
+}
+
+.hero-content {
+    color: #E8B25A; 
+}
+
+.titulo {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sub {
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    color: #E8B25A;
+}
+
+.botao {
+    padding: 12px 20px;
+    background: rgba(0,0,0,0.6);
+    border: 1px solid #E8B25A;
+    color: #E8B25A;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #F5F5F5;
+
+}
+
+
+header {
+    width: 100%;
+    padding: 20px 0;
+    background: #1E2A2F;
+}
+
+.container {
+    width: 1200px; 
+    max-width: 95%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #D9A441;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+
+.menu li a:hover {
+    color: #D9A441;
+}
+
+.hero {
+    width: 100%;
+    height: calc(120vh - 100px); 
+    overflow: hidden;
+    background-image: fixed;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+    background: fixed;
+}
+
+.botao{
+   position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background:#1E2A2F;
+    color:#D9A441;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.menu2{
+      list-style: none;
+    display: flex;
+    gap: 25px; 
+}
+
+.menu2 li a:hover {
+    color: #D9A441;
+}
+
+.container2 {
+    width: 1200px;
+    max-width: 95%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo2{
+    color: #D9A441;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.cardapio-section {
+    width: 100%;
+    min-height: 100vh;
+    padding: 60px 0;
+    background: url("../imagens/baratie.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+
+.titulo-cardapio {
+    font-size: 50px;
+    color: #E7B063; 
+    margin-bottom: 50px;
+}
+
+
+.grid-cardapio {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+
+.card-item {
+    background: rgba(0, 0, 0, 0.55);
+    padding: 20px;
+    border: 1px solid #E7B063;
+    text-align: center;
+}
+
+.card-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-item h2 {
+    color: #E7B063;
+    margin: 15px 0 5px;
+}
+
+.card-item p {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid #E7B063;
+    color: #E7B063;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.top-bar {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    z-index: 10;
+}
+
+.menu-btn {
+    background-color: #22313f; 
+    padding: 12px 28px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.menu-btn:hover {
+    background-color: #1a252f;
+}
+
